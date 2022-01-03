@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "박기현"
-  avatar           : "https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
+  avatar           : "/assets/images/my-pic.jpg"
   bio              : "블로그 테스트"
   #location         : "Seoul, South Korea"
   links:
