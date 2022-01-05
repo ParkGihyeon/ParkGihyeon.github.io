@@ -1,7 +1,7 @@
 ---
-title: "암호화폐에 대한 개인적인 호기심"
+title: "Python 프로그래밍"
 layout: archive
-permalink: categories/bitcoin
+permalink: categories/python
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Bitcoin %}
+{% assign posts = site.categories.Python %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

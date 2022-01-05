@@ -1,7 +1,7 @@
 ---
-title: "나만의 언리얼 문서들"
+title: "Error 해결"
 layout: archive
-permalink: categories/ue4-docs
+permalink: categories/error
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.UE4Docs %}
+{% assign posts = site.categories.Error %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

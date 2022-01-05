@@ -1,7 +1,7 @@
 ---
-title: "이득우의 언리얼 C++ 게임 개발의 정석 책"
+title: "Project"
 layout: archive
-permalink: categories/ue4-lesson-2
+permalink: categories/project
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['UE4 Lesson 2'] %}
+{% assign posts = site.categories.Project %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
