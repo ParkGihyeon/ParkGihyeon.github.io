@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dir
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : " 블로그 테스트(깃허브 ansohxxn님 자료입니다.) 🌙"
+title                    : " 기록의 즐거움 : Pleasure of recording 💾"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "박기현"
-description              : "코딩 공부 블로그"
+name                     : "박기현🔥"
+description              : "끼연이의 프로그래밍 울타리"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ParkGihyeon/ParkGihyeon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "박기현"
+  name             : "공부하는 끼연이 🎓"
   avatar           : "/assets/images/my-pic.jpg"
-  bio              : "블로그 테스트"
+  bio              : "while True:"
   #location         : "Seoul, South Korea"
   links:
     - label: "Email"
