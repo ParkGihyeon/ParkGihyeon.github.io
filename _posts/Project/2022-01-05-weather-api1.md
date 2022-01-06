@@ -1,10 +1,10 @@
 ---
-title:  "[기상청 API] OpenWeatherMap 오픈웨더맵 API 호출하기" 
+title:  "[기상청 API] OpenWeatherMap 오픈웨더맵 API 호출하기 (1)" 
 
 categories:
   -  Project 
 tags:
-  - [Python]
+  - [Python, Json]
 
 toc: true
 toc_sticky: true
