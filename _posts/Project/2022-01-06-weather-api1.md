@@ -1,5 +1,5 @@
 ---
-title:  "[기상청 API] OpenWeatherMap 오픈웨더맵 API 호출하기 (1)" 
+title:  "[기상청 API: 파이썬] OpenWeatherMap 오픈웨더맵 API 호출하기 (1)" 
 
 categories:
   -  Project 
