@@ -80,6 +80,24 @@ print(crd)
 
 ## 2️⃣ 카카오 API를 사용하는 방법
 
+### 개인 Key 발급받기
+1. <https://developers.kakao.com> 접속
+2. 우측 상단 '내 애플리케이션' 클릭
+3. 내 애플리케이션 추가하기
+
+![앱 추가](https://user-images.githubusercontent.com/45157347/149715886-3be6c7ff-2a2b-4088-bd12-e6397189d0f5.JPG)
+
+4. 앱 이름, 사업자명 입력 후 저장 (앱 아이콘은 필요한 경우에 업로드)
+
+![키](https://user-images.githubusercontent.com/45157347/149716034-aad4df42-7660-428b-837d-60ce0c176b8c.JPG)
+
+5. 생성된 '앱 이름' 클릭 (📌 'REST API 키' 복사해두기)
+6. 'Web 플랫폼 등록' 클릭
+7. http<temp>s://localhost:3000 입력 후 저장
+
+
+<br>
+
 ### 1. 지오코딩 (주소를 통해 위도, 경도 좌표 얻기)
 
 ```python
@@ -88,6 +106,8 @@ import requests, json
 
 def get_location(address):
   url = 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address
+  # 'KaKaoAK '는 그대로 두시고 개인키만 지우고 입력해 주세요.
+  # ex) KakaoAK 6af8d4826f0e56c54bc794fa8a294
   headers = {"Authorization": "KakaoAK 개인키"}
   api_json = json.loads(str(requests.get(url,headers=headers).text))
   address = api_json['documents'][0]['address']
@@ -110,6 +130,8 @@ import requests, json, pprint
 
 def get_address(lat, lng):
     url = "https://dapi.kakao.com/v2/local/geo/coord2regioncode.json?x="+lng+"&y="+lat
+    # 'KaKaoAK '는 그대로 두시고 개인키만 지우고 입력해 주세요.
+    # ex) KakaoAK 6af8d4826f0e56c54bc794fa8a294
     headers = {"Authorization": "KakaoAK 개인키"}
     api_json = requests.get(url, headers=headers)
     full_address = json.loads(api_json.text)
@@ -120,8 +142,9 @@ full_address = get_address('36.5760732781656', '128.15935928504484')
 pprint.pprint(full_address)
 ```
 
+<br>
 
-
+좌표나 주소만 입력하여 호출하면 되는 간단한 코드라서 그대로 복사하여 사용하시면 됩니다.
 
 
 
