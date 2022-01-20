@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-19
-last_modified_at: 2022-01-19
+last_modified_at: 2022-01-21
 ---
 
 🔔 비주얼스튜디오에서 OpenGL을 사용할 수 있도록 환경 구성을 해보겠습니다.
@@ -19,7 +19,7 @@ last_modified_at: 2022-01-19
 
 티스토리 'A Cel'님의 [포스트]를 참고하였습니다.  
 
-[포스트]: https://lynmp.com
+[포스트]: https://siriusp.tistory.com/
 
 <br>
 
